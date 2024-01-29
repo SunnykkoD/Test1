@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002113922845"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6152856449"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001427161064"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>Tiempo activo del Bot</b>\n{uptime}"
 USER_REPLY_TEXT = "¡Lo siento! Solo proveo los animes mendiante el link. No necesitas escribirme, ve a @rranimespHD y enviame el link."
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1081566758)
+ADMINS.append()
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
